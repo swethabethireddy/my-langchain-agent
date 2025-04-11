@@ -1,0 +1,8 @@
+name: my-langchain-agent
+description: A LangChain-based agent deployed with Azure AI Foundry.
+inputs:
+  - name: query
+    type: string
+runtime: python
+entry_point: main.py
+function: run_agent
